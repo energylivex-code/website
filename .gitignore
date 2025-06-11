@@ -1,0 +1,13 @@
+# Template files
+auth-*.html
+index-[1-5].html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo 
