@@ -1,0 +1,103 @@
+:root {
+    --primary-bg: #0B454F;
+    --highlight-lime: #E4FD2B;
+    --radiant-blue: #0079FF;
+    --snow-white: #FFFFFF;
+    --deep-jade: #586A5B;
+    --warm-sand: #F1F1ED;
+}
+
+/* Base colors */
+.bg-primary {
+    background-color: var(--radiant-blue) !important;
+}
+
+.text-primary {
+    color: var(--radiant-blue) !important;
+}
+
+.bg-default-900 {
+    background-color: var(--primary-bg) !important;
+}
+
+.bg-default-950 {
+    background-color: var(--deep-jade) !important;
+}
+
+.text-default-100 {
+    color: var(--snow-white) !important;
+}
+
+.text-default-200 {
+    color: var(--warm-sand) !important;
+}
+
+.text-default-300 {
+    color: var(--warm-sand) !important;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: var(--radiant-blue);
+    color: var(--snow-white);
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #0066cc; /* Darkened Radiant Blue */
+}
+
+.btn-secondary {
+    border: 1px solid var(--radiant-blue);
+    color: var(--radiant-blue);
+    border-radius: 8px;
+}
+
+.btn-secondary:hover {
+    background-color: var(--radiant-blue);
+    color: var(--snow-white);
+}
+
+/* Card styles */
+.card {
+    background-color: rgba(88, 106, 91, 0.04); /* Deep Jade at 4% opacity */
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Tag/Chip styles */
+.tag {
+    background-color: var(--highlight-lime);
+    color: var(--primary-bg);
+    border-radius: 12px;
+}
+
+/* Gradient backgrounds */
+.gradient-bg {
+    background: linear-gradient(to left, rgba(11, 69, 79, 0.4), rgba(0, 121, 255, 0.4));
+}
+
+/* Feature icons */
+.feature-icon {
+    background-color: rgba(228, 253, 43, 0.2);
+    color: var(--highlight-lime);
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--primary-bg);
+}
+
+.nav-link {
+    color: var(--snow-white);
+}
+
+.nav-link:hover {
+    color: var(--highlight-lime);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(88, 106, 91, 0.4);
+    backdrop-filter: blur(3xl);
+} 
